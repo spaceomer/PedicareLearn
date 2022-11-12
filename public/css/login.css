@@ -1,0 +1,102 @@
+body {
+    --color-primary: #4296E3;
+    --color-primary-dark: #3477b3;
+    --color-error: #ca5858;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+ 
+.Box {
+    width: 400px;
+    max-width: 400px;
+    margin:  1rem;
+    padding: 2rem;
+    text-align: center;
+}
+
+.Title {
+    margin-bottom: -20px;
+    font-size: 55px;
+}
+
+.Box,
+.input,
+.Submit {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px; 
+    border-radius: 11px;
+    border: 0;
+}
+
+.Inputtitle {
+    text-align: right;
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: #3a3a3a;
+}
+
+.Submit, 
+.inputs,
+.input{
+    text-align: center;
+    width: 100%;
+}
+
+.input {
+    margin-bottom: 6rem;
+    background-color: #EDEDED;
+    color: #3a3a3a;
+    font-weight: 100;
+    font-size: 20px;
+    height: 50px;
+    text-align: right;
+    padding: 1px 1em 1px 1px;
+}
+
+.Submit {
+    height: 50px;
+    border: 0;
+    background-color: #4296E3;
+    color: white;
+}
+
+.Submit:hover {
+    background-color: #3477b3;
+}
+
+.Getpass {
+    font-size: 20px;
+}
+
+.input:focus{
+    border: 0;
+    outline: 0;
+    background-color: #f1f1f1;
+}
+
+.Subtitle {
+    font-weight: 100;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.Logo {
+    text-align: right;
+    position: fixed;
+    font-size: 30px;
+    right: 20px;
+    top: 20px;
+}
+
+.Logo1 {
+    font-weight: 100;    
+}
+
+.Logo2 {
+    font-weight: 1000;
+}

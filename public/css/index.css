@@ -1,0 +1,129 @@
+body {
+    --color-primary: #4296E3;
+    --color-primary-dark: #3477b3;
+    --color-error: #ca5858;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+.Logo {
+    font-family: 'Open Sans', sans-serif;
+    text-align: right;
+    position: fixed;
+    font-size: 30px;
+    right: 20px;
+    top: 20px;
+}
+
+.Logo1 {
+    font-weight: 100;    
+}
+
+.Logo2 {
+    font-weight: 1000;
+}
+
+.title {
+    margin-top: 140px;
+    font-family: 'Open Sans', sans-serif;
+    margin-right: 5vw;
+}
+
+.Maintitle {
+    font-size: 50px;
+    margin-bottom: 0;
+    font-weight: 500;
+}
+
+.Secenderytitle {
+    margin-top: 0;
+    color: #525252;
+    font-size: 18px;
+}
+
+.UserBar {
+    position: fixed;
+    top: 30px;
+    left: 30px;
+    vertical-align: middle;
+}
+
+.UserName {
+    color: black;
+    vertical-align: middle;
+}
+
+.material-symbols-outlined {
+    vertical-align: middle;
+}
+
+.CoursBox {
+    height: 455px;
+    width: 403px;
+    border: 1px solid;
+    border-color: #f0f0f0;
+    background-color: #ffffff;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin-right: 5vw;
+    border-radius: 15px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-bottom: 50px;
+    float: right;
+}
+
+.CoursImage {
+    width: 400px;
+    height: 260px;
+    margin-top: 20px;
+    border-radius: 22px;
+    margin-bottom: 0;
+}
+
+.CoursTitle {
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.CoursTitle1 {
+    font-size: 40px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.CoursTitle2 {
+    font-size: 20px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+
+.ProgressBox {
+    margin-top: 15px;
+    border-radius: 15px;
+    height: 50px;
+    width: 100%;
+    background-color: #4296E3;
+    position: relative;
+    text-align: center;
+}
+
+.ProgressBar {
+    border-radius: 15px;
+    border-bottom-left-radius: 0;
+    border-top-left-radius: 0;
+    height: 100%;
+    width: 40%;
+    background-color:#3477b3;
+}
+
+.TitleBox {
+    position: absolute;
+    margin-right: 33px;
+    text-align: center;
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 500;
+    margin-top: 3px;
+}
